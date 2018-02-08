@@ -1,11 +1,5 @@
 Reset.css
 
-#test-box {
-  display: flex;
-  flex-direction: column;
-
-}
-
 html, body {
     padding: 0;
     margin: 0;
@@ -64,11 +58,11 @@ h2 {
 
 #services {
   text-align: center;
-  background-color: gray;
+  background-color: #323232;
 }
 
 #logo {
-  width:80px; /* you can use % */
+  width:80px;
   height: auto;
   position: relative;
   left: 25;
@@ -76,7 +70,7 @@ h2 {
 }
 
 img {
-  margin:3;
+  margin: 3;
 }
 
 #figures {
@@ -85,15 +79,15 @@ img {
   justify-content: center;
 }
 
-#test1 {
-  float: left;
-} */
-
 #statement {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 4;
   background-color: #cbd0d2;
+}
+
+#companies {
+  background-color: #3b9efa;
 }
 
 #all-things{
@@ -114,7 +108,6 @@ img {
   position:absolute;
   top:17;
   right:25;
-  /* margin: 5; */
 }
 
 .topnav {
